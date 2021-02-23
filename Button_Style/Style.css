@@ -1,0 +1,36 @@
+.btn-search{
+   
+    border-radius: 25px;
+    width: 100px;
+    font-size: 15px;
+    color:mediumturquoise;
+    padding: 5px;
+    border-color: mediumturquoise;
+    
+
+    margin: 10px;
+    }
+
+
+
+.btn-circle{
+height: 50 px;
+width: 50 px;
+border-radius: 50%;
+border:none;
+background-color: cyan;
+font-size: 25px;
+font-weight: 800;
+color: white;
+margin: 10px;
+}
+.btn-box{
+    height: 00 px;
+    width: 290 px;
+    border:none;
+    background-color:royalblue;
+    /* font-size: 10px; */
+    color: white;
+    padding: 12px;
+    box-shadow: 4px 4px #222
+    }
