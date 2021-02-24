@@ -1,0 +1,9 @@
+#flex-navbar {
+    width: 1500px;
+    height: 200px;
+    background-color:deepskyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
