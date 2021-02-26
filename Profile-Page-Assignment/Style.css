@@ -1,0 +1,66 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Viga', sans-serif;
+    /* this outline elements while we're working! */
+    /* TODO - comment out when done */
+     outline: 10px dotted red
+}
+
+
+.header {
+    flex: 1;
+    height: 40px;
+    background-color: black;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 3;
+    font-size: 20px;
+    color:white;
+    padding-right: 0px;
+}
+
+.box {
+    border: 1px solid #000;
+    border-radius: 10px;
+    min-height: 80px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #aaa;
+}
+
+.link-box {
+    padding: 10px;
+}
+
+.container{
+    width: 1450px;
+    height: inherit;
+    background-color: salmon;
+    margin: 0 auto;
+}
+.min-height-500 {
+    min-height: 500px;
+}
+
+.col-1 {
+    flex: 1;
+    height: 100px;
+}
+
+.col-3 {
+    flex: 3;
+    height: 300px;
+}
+
+.flex{
+    display: flex;
+}
+
+.mr40{
+  margin-right: 40px;  
+}
