@@ -1,0 +1,35 @@
+/* Some 'Flex' for our Post It Notes */
+
+/* row class */
+.row{
+    /* flex allows the boxes to be side by, without the 'flex' thr boxes would be on top of each other */
+    display: flex;
+    /* This centers the boxes on the page, without this, the boxes would be left justified */
+    justify-content: center;
+}
+
+/* note class */
+.note{
+    /* The height of the box */
+    height: 50px;
+    /* The width of the box */
+    width: 50px;
+    /* padding is space inside the like a frame inside the box box */
+    padding: 10px;
+    /* Margin is the space between the boxes */
+    margin: 10px;
+    /* 'Border' is the outline of the box, and its thickness and, its color */
+    border: 1px solid black;
+    /* color of the boxes */
+    background-color: lightyellow;
+}
+/* Shadow class */
+.shadow {
+    /* places a shadow around the box */
+    box-shadow: 5px 5px 5px #999;
+    /* this allows the box to lift a little so that when the shadow is on the note, it looks like it lifts. */
+    position: relative;
+    bottom: 5px;
+    /* this allows for the mouse pointer to change from an arrow to a finger. */
+    cursor:pointer;
+}
